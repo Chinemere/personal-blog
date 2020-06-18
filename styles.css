@@ -1,0 +1,233 @@
+body{
+    background-color: rgb(224, 224, 255);
+    font-family: "Poppins", sans-serif;
+    color:#777777;
+     font-weight: 300;
+    
+}
+
+
+/* Beginning of first section */
+.intro{
+
+text-align: center;
+margin-top: 50px ;
+font-family: "Poppins", sans-serif 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding:20px;
+border-style: solid;
+border-color:#d6d3d3 ;
+border-width:1px ;
+margin-left: 10px;
+margin-right: 10px;
+
+
+
+}
+
+.intro h1{
+    font-weight: bold;
+    margin-bottom: 4px;
+    font-size: 23px;
+}
+
+
+.chi-pics-div{
+    width: 170px;
+    height: 170px; 
+    border-radius: 50%; 
+    padding: 10px; 
+     background-color: #f6214b;
+     margin: 0 auto;
+     margin-bottom: 20px;
+    }
+
+    .hello{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 17px;
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+    
+    .main-content-container{
+        width: 1200px;
+        height: 350px;
+        background-color: white;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        padding:30px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+
+    
+
+   
+.main-article{
+    padding-left: 30px;
+
+}
+
+.both-content{
+    margin-top: 20px;
+}
+
+.icons{
+    font-size: 20px;
+    margin-top: 0;
+    color: #f6214b;
+}
+
+.fa-comment{
+    padding: 10px;
+    padding-right: 20px;
+}
+
+.fa-heart{
+    padding: 10px;
+    padding-right: 20px;
+}
+
+
+.btn{
+    margin: 10px;
+    background-color:#f6214b ;
+    font-size: 15px;
+}
+.read-more p{
+    color:#777777;
+    line-height: 10px;
+    margin-top: 20px;
+}
+
+.social-media-icons{
+    font-size: 30px;
+    letter-spacing: 10px;
+    font-weight: 300px;
+    visibility: hidden;
+    
+}
+
+.follow-me{
+    width: 120ox;
+    height: 40px;
+    background-color: #f6214b ;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+.mou{
+    margin-bottom: -50px;
+}
+
+.follow-me p{
+    justify-content: center;
+    align-content: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fixed-side-bar{
+position : fixed;
+    margin-bottom: -200px;
+
+}
+
+
+.middle-side-bar{
+margin-left: 320px; 
+
+}
+
+.row2{
+    margin-top: -50px;
+}
+
+.third-side-bar{
+    margin-top: 50px;
+    border-style: solid;
+    border-color: #cfcfcf;
+    border-width: 1px;
+    background-color: #ffffff;
+    padding-top: 50px;
+    height: 500px;
+
+}
+
+.side-bar2{
+    margin-top: 80px;
+    
+}
+
+.search{
+    width: 300px;
+    height: 50px;
+    font-size: 15x;
+    color:#ffffff;
+}
+
+
+.type-email{
+    width: 200px;
+    height: 50px;
+    font-size: 15x;
+    color:#ffffff;
+}
+.subscription{
+    width: 100px;
+    height: 50px;
+    background-color: #f6214b;
+    color: #ffffff;
+    float: right;
+    margin-top: -50px;
+   
+}
+
+.subscribe{
+    margin-top: 14px;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.news-letter{
+    width:300px;
+    height:35px;
+    background-color:#f6214b ;
+    margin-top: 40px;
+    padding: 3px;
+}
+.news-letter-heading{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.here{
+    color:#777777 ;
+    font-size: 15px;
+}
+
+.subscription a{
+    color:#ffffff;
+
+}
+
+.subscription a:hover{
+    color:#f8d4d4;
+}
+
+footer{
+    padding-left: 600px;
+    color:#f6214b;
+    font-family: 'Courier New', Courier, monospace;
+}
+    
+
+    
