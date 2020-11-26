@@ -7,277 +7,190 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+web">
-    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="/fontawesome/fontawesome-free-5.15.1-web/css/all.css">
 
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="theme.css">
+
 
     <title>Chinemere</title>
 </head>
 
 <body>
-
-    <!--Beginning of First Section-->
-
-    <!--End of first section-->
-
-
-    <!--Beginning of  second section-->
-
+    <!-- Code for changing website theme -->
+    <div class="light-dark-theme">
+        <input type="checkbox" class="checkbox" id="checkbox">
+        <label for="checkbox" class="label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
+    <!-- End of code -->
 
     <div class="row main-content">
-        <!--left sidebar-->
-        <div class="col-sm-3 fixed-side-bar">
-            <div class=" side-bar">
-                <div class="row intro">
-                    <div class="col-sm-12">
-                        <!--Chinemere's image-->
-                        <div class="chi-pics-div">
-                            <img src="images/chinemere.png" alt="chinemere's-image" width="150px" height="150px">
-                        </div>
 
-                        <h1>Chinemere Chukwu</h1>
-
-                        <h4 class="hello">
-                            Hello! 👋 <br>
-                            I’m a Frontend Engineer based in Lagos, Nigeria and I'm
-                            passionate making the web accessible to
-                            everyone and building communities.
-                        </h4>
-
-
-                        <!--Social media icons-->
-                        <span class="social-media-icons" id="social" onmouseover="socialMouseOver()">
-                            <i class="fa fa-twitter" onmouseover="socialMouseOver()" onmouseout="socialMouseOut()"></i>
-                            <i class="fa fa-instagram" onmouseover="socialMouseOver()"
-                                onmouseout="socialMouseOut()"></i>
-                            <i class="fa fa-facebook" onmouseover="socialMouseOver()" onmouseout="socialMouseOut()"></i>
-                            <i class="fa fa-github" onmouseover="socialMouseOver()" onmouseout="socialMouseOut()"></i>
-                        </span>
-
-                        <div class="mou" onmouseover="followMeMouseOver()">
-                            <div class="follow-me d-flex justify-content-center" id="follow">
-                                <a href="#">
-                                    <p>Follow Me</p>
-                                </a>
+        <main>
+            <!--left sidebar-->
+            <div class="col-sm-3 fixed-side-bar">
+                <div class=" side-bar">
+                    <div class="intro">
+                        <div class="col-sm-12">
+                            <!--Chinemere's image-->
+                            <div class="chi-pics-div">
+                                <img src="images/chinemere.png" alt="chinemere's-image" width="150px" height="150px">
                             </div>
-                        </div>
-
-                    </div>
 
 
-                </div>
-            </div>
-        </div>
-        <!--End of left sidebar-->
+                            <h1>Chinemere Chukwu</h1>
 
-        <!--beginning of middle sidebar-->
-        <div class="col-sm-6 middle-side-bar">
-            <div class="row">
-
-
-                <div class="col-sm-12 d-flex justify-content-center">
-                    <div class="main-content-container">
-
-                        <!--beginimg of red line-->
-                        <div class="empty-div">
-
-                        </div>
-                        <!--End of redline-->
+                            <h4 class="hello">
+                                Hi Hello! 👋 <br>
+                                I’m a goal driven frontend engineer who will stop at nothing to keep improving at
+                                every given opportunity. Join Me let me walk you through my world
+                            </h4>
 
 
-                        <!--Beginning of First Article-->
-                        <div class="row ">
-                            <!--tittle image-->
-                            <div class="col-sm-4 both-content">
-                                <div class="chi-image">
-                                    <img src="images/d3.png" alt="d3" width="200" height="200">
+                            <!--Social media icons-->
+                            <span class="social-media-icons" id="social" onmouseover="socialMouseOver()">
+                                <i class="fa fa-twitter" onmouseover="socialMouseOver()"
+                                    onmouseout="socialMouseOut()"></i>
+                                <i class="fa fa-instagram" onmouseover="socialMouseOver()"
+                                    onmouseout="socialMouseOut()"></i>
+                                <i class="fa fa-facebook" onmouseover="socialMouseOver()"
+                                    onmouseout="socialMouseOut()"></i>
+                                <i class="fa fa-github" onmouseover="socialMouseOver()"
+                                    onmouseout="socialMouseOut()"></i>
+                            </span>
 
+                            <div class="mou" onmouseover="followMeMouseOver()">
+                                <div class="follow-me id=" follow">
+                                    <a href="https://twitter.com/codemistress1" target="blank">
+                                        <p>Follow Me</p>
+                                    </a>
                                 </div>
                             </div>
-                            <!--End of tittle image-->
 
-
-                            <!--Main Article-->
-                            <div class="col-sm-8 main-article both-content">
-                                <h1>Let's Learn Data Visualization with D3.js</h1>
-
-                                <span class="read-more">
-                                    <p>My goal with this video was to build out a scatterplot
-                                        chart using D3.js and a dataset I found on Kaggle...
-                                        <button type="submit" class="btn btn-primary btn-sm">Read
-                                            More</button>
-                                    </p>
-
-                                </span>
-                                <span class="icons">
-                                    <i class="fa fa-comment"></i>
-                                    <i class="fa fa-heart"></i>
-                                    <i class="fa fa-calendar"></i>
-
-                                </span>
-                            </div>
                         </div>
-                        <!--End of first article-->
+
 
                     </div>
-
                 </div>
-
             </div>
+            <!--End of left sidebar-->
+
+            <!--beginning of middle sidebar-->
+            <div class="col-sm-6 middle-side-bar">
+                <!-- begging of post -->
+                <div class="row">
 
 
-            <div class="row row2">
+                    <div class="col-sm-12 d-flex justify-content-center">
+                        <div class="main-content-container">
+
+                            <!--beginimg of red line-->
+                            <div class="empty-div">
+
+                            </div>
+                            <!--End of redline-->
 
 
-                <div class="col-sm-12 d-flex justify-content-center">
-                    <div class="main-content-container">
+                            <!--Beginning of First Article-->
+                            <div class="row ">
+                                <!--tittle image-->
+                                <div class="col-sm-4 both-content">
+                                    <div class="chi-image">
+                                        <img src="post/images/female programmer.jpg" alt="female Programmer" width="200"
+                                            height="200">
 
-                        <!--beginimg of red line-->
-                        <div class="empty-div">
-
-                        </div>
-                        <!--End of redline-->
+                                    </div>
+                                </div>
+                                <!--End of tittle image-->
 
 
-                        <!--Beginning of First Article-->
-                        <div class="row">
-                            <!--tittle image-->
-                            <div class="col-sm-4 both-content">
-                                <div class="chi-image">
-                                    <img src="images/d3.png" alt="d3" width="200" height="200">
+                                <!--Main Article-->
+                                <div class="col-sm-8 main-article both-content">
+                                    <h1>Yelp My First Post!!</h1>
 
+                                    <span class="read-more">
+                                        <p>Welcome to My Blog Guys, I have been meaning to start up this
+                                            blog but "forces beyond my control" has prevented me from doing so.<br>
+                                            But today I am glad that it its up and running. somethings are still yet
+                                            to
+                                            be fixed though but I assure you that we are good to go...<br>
+
+                                            <a href="http://127.0.0.1:5500/post/yelp-my-first-post.html" target="blank">
+                                                <button type="submit" class="btn">
+                                                    Read More </button></a>
+                                        </p>
+
+                                    </span>
+                                    <span class="icons">
+                                        <i class="fa fa-comment"> 0</i>
+                                        <i class="fa fa-heart"> 0</i>
+                                        <i class="fa fa-calendar"> 07 Aug. 2020</i>
+
+                                    </span>
                                 </div>
                             </div>
-                            <!--End of tittle image-->
+                            <!--End of first article-->
 
-
-                            <!--Main Article-->
-                            <div class="col-sm-8 main-article both-content">
-                                <h1>Let's Learn Data Visualization with D3.js</h1>
-
-                                <span class="read-more">
-                                    <p>My goal with this video was to build out a scatterplot
-                                        chart using D3.js and a dataset I found on Kaggle...
-                                        <button type="submit" class="btn btn-primary btn-sm">Read
-                                            More</button>
-                                    </p>
-
-                                </span>
-                                <span class="icons">
-                                    <i class="fa fa-comment"></i>
-                                    <i class="fa fa-heart"></i>
-                                    <i class="fa fa-calendar"></i>
-
-
-                                </span>
-                            </div>
                         </div>
-                        <!--End of first article-->
 
                     </div>
 
                 </div>
+                <!-- End of post -->
+
+
+
+                <!-- INSERT NEW POST  IN BETWEEN-->
+
+
+                <!-- INSERT NEW POST -->
 
             </div>
+            <!--end of Middle sidebar-->
 
 
 
-
-
-            <div class="row row2 ">
-
-
-                <div class="col-sm-12 d-flex justify-content-center">
-                    <div class="main-content-container">
-
-                        <!--beginimg of red line-->
-                        <div class="empty-div">
-
-                        </div>
-                        <!--End of redline-->
-
-
-                        <!--Beginning of First Article-->
-                        <div class="row">
-                            <!--tittle image-->
-                            <div class="col-sm-4 both-content">
-                                <div class="chi-image">
-                                    <img src="images/d3.png" alt="d3" width="200" height="200">
-
-                                </div>
-                            </div>
-                            <!--End of tittle image-->
-
-
-                            <!--Main Article-->
-                            <div class="col-sm-8 main-article both-content">
-                                <h1>Let's Learn Data Visualization with D3.js</h1>
-
-                                <span class="read-more">
-                                    <p>My goal with this video was to build out a scatterplot
-                                        chart using D3.js and a dataset I found on Kaggle...
-                                        <button type="submit" class="btn btn-primary btn-sm">Read
-                                            More</button>
-                                    </p>
-
-                                </span>
-                                <span class="icons">
-                                    <i class="fa fa-comment"></i>
-                                    <i class="fa fa-heart"></i>
-                                    <i class="fa fa-calendar"></i>
-
-
-                                </span>
-                            </div>
-                        </div>
-                        <!--End of first article-->
-
+            <!--Beginning of right side bar-->
+            <div class="col-sm-3 third-side-bar">
+                <div class="side-bar2">
+                    <input type="text" class="form-control search" placeholder="Search &#xF002" ;
+                        style="font-family:Arial, FontAwesome;" /">
+                    <div class="news-letter">
+                        <div class="news-letter-heading">News Letter</div>
                     </div>
 
-                </div>
-
-            </div>
-
-
-
-
-        </div>
-        <!--end of Middle sidebar-->
-
-
-
-        <!--Beginning of right side bar-->
-        <div class="col-sm-3 third-side-bar">
-            <div class="row side-bar2 d-flex justify-content-center">
-                <input type="text" class="form-control search" placeholder="Search &#xF002" ;
-                    style="font-family:Arial, FontAwesome;" /">
-                <div class="news-letter">
-                    <p class="news-letter-heading">News Letter</p>
                     <p class="here">Here, I focus on a range of
-                        items andfeatures that we use in
+                        items and features that we use in
                         life without giving them a second thought.</p>
-                    <span>
-                        <input type="text" class="form-control type-email" placeholder="Eamil Address">
+                    <div class="sub">
+                        <div class="email-input">
+                            <input type="text" class="form-control type-email" placeholder="Eamil Address">
+                        </div>
                         <div class="subscription">
                             <a href="#">
-                                <p class="subscribe d-flex justify-content-center"> Subscribe</p>
+                                <p class="subscribe d-flex justify-content-center"></p> Subscribe</p>
                             </a>
                         </div>
-                    </span>
+
+
+                    </div>
 
                 </div>
-
             </div>
-        </div>
-        <!--end of right sidebar-->
+            <!--end of right sidebar-->
+        </main>
 
         <!-- footer -->
         <footer class="d-flex justify-content-center">
             <div class="row d-flex justify-content-center">
-                <div class="col-sm-12 the-footer">
+                <div class="the-footer">
                     <p class="thanks">Thanks For Sticking Arround</p>
 
                 </div>
